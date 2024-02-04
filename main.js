@@ -50,7 +50,6 @@ const sendEmail = (e) => {
     // serviceID - templateID - #form - publicKey
     emailjs.sendForm('service_gfql77k', 'template_kz2edkq', '#contact-form', 'EGICnxEODmfUP6ggK')
         .then(() => {
-            // Show sent message
             contactMessage.textContent = 'Message sent successfully ✅';
 
             // Remove message after four seconds
@@ -62,7 +61,6 @@ const sendEmail = (e) => {
             contactForm.reset();
 
         }, () => {
-            // Show error message
             contactMessage.textContent = 'Message not sent (service error) ❌';
         })
 }
