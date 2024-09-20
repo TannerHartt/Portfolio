@@ -374,7 +374,7 @@ svg {
 
 .skills__container {
     padding-bottom: 2rem;
-    row-gap: 3.5rem;
+    row-gap: 3rem;
 }
 
 .skills__data {
@@ -383,6 +383,7 @@ svg {
 
 .skills__description {
     margin-bottom: 2rem;
+    margin-right: 1rem;
 }
 
 .skills__content,
@@ -391,7 +392,7 @@ svg {
 }
 
 .skills__content {
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(3, max-content);
     column-gap: 4rem;
     justify-content: center;
     align-items: baseline;
